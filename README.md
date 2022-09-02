@@ -1,3 +1,19 @@
+# Booker
+
+Booker este o aplicație care permite programarea unor date pentru consultații. Aceasta folosește limbaj HTML, PHP, Laravel pentru codul efectiv și mysql pe partea de administrare a datelor bazate.
+
+Pentru fiecare consultant se asociaza o matrice de date valabile pentru programari.
+
+Proiectul are un algoritm care genereaza date ca zile de lucru fara zile de weekend care vor fi asociate unui consultant in intervalele orare mentionate.
+
+Ajax va fi folosit ca rutare la subpagina /consultant a proiectului Laravel pentru a trimite cererea de programare a consultatiei.
+
+MySQL este folosit pentru a inregistra in baza de date toate programarile pentru fiecare consultant in parte.
+
+Am utilizat afisarea datelor sub forma de tabel ca sa testez valabilitatea algoritmului de date.
+
+Functionalitatea de conectare la baza de date si trimiterea datelor prin ajax sunt doar schitate, adica neterminate.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -62,4 +78,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Booker
+
